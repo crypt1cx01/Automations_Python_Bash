@@ -1,39 +1,16 @@
 # Automations_Bash
-Automations Bash Script For Easy Task
+Automations Bash Script For Easy Tasks.
+
+Welcome to my automation repository! Here you will find useful scripts categorized by language. Each script has its own dedicated documentation inside its folder.
 
 ---
 
-## 🛠️ System Monitor & Information Script (whoami)
+## 📂 Repository Index
 
-This is a lightweight and powerful Bash script designed to gather and display vital system statistics, resource usage, and network profiles in a clean, color-coded Terminal interface.
+### 🔹 Bash Scripts
+* **[System Monitor (whoami)](./Bash/whoami/)** - Comprehensive system info, resource profile, and network diagnostics tool.
+---
 
-### 📄 Script File
-* You can view and access the source code directly here: **[whoami.sh](https://github.com/crypt1cx01/Automations_Python_Bash/blob/main/Bash/whoami/whoami.sh)**
-
-### 📸 Screenshot
-<br>
-
-![whoami](https://github.com/crypt1cx01/Automations_Python_Bash/blob/main/Bash/whoami/whoami_script.PNG)
-
-<br>
-<hr>
-
-### ✨ Key Features
-
-* **Smart Welcome:** Detects the current user and displays a red warning emoji if executed with `root` privileges.
-* **System Info:** Pulls the exact OS name, current Shell type, system Uptime, and formatted local Date/Time.
-* **Resources Profile:** Calculates RAM consumption percentage and monitors Disk usage (with an auto-warning trigger if Disk space exceeds 90%).
-* **Network Profile:** Extracts your Local IP, Loopback IP, and fetches your live Public IP (displays "Offline" if no internet connection is detected).
-* **Port Monitoring:** Tracks and displays the total number of open network ports currently listening for connections.
-
-<br>
-
-### 🚀 How to Run
-
-Give execution permissions to the script and run it using the following commands:
-
-```bash
-chmod +x whoami.sh
-./whoami.sh
-```
-
+## 🚀 How to Use this Repo
+1. Navigate to the folder of the script you want to use via the links above.
+2. Follow the specific instructions provided in that folder's `README.md`.
