@@ -6,7 +6,7 @@ Useful Bash scripts designed to automate daily tasks and gather system diagnosti
 ## 📂 Repository Index
 
 ### 🔹 Bash Scripts
-* **[System Monitor (whoami)](./Bash/whoami/)** - Comprehensive system info, resource profile, and network diagnostics tool.
+* **[System Monitor (whoami)](./whoami/)** - Comprehensive system info, resource profile, and network diagnostics tool.
 ---
 
 ## 🚀 How to Use this Repo
