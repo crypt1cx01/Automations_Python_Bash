@@ -1,5 +1,5 @@
-# Automations_Python_Bash
-Automations Python &amp; Bash Script For Easy Task
+# Automations_Bash
+Automations Bash Script For Easy Task
 
 ---
 
