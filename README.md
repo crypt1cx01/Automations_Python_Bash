@@ -1,7 +1,5 @@
 # Automations_Bash
-Automations Bash Script For Easy Tasks.
-
-Welcome to my automation repository! Here you will find useful scripts categorized by language. Each script has its own dedicated documentation inside its folder.
+Useful Bash scripts designed to automate daily tasks and gather system diagnostics efficiently. Each script has its own dedicated documentation inside its folder.
 
 ---
 
