@@ -3,8 +3,8 @@
 This lightweight Bash script gathers and displays vital system statistics, resource usage, and network profiles in a clean, color-coded Terminal interface.
 
 ### 📄 Script Links
-* Source Code: **[whoami.sh](https://github.com/crypt1cx01/Automations_Bash/blob/main/Bash/whoami/whoami.sh)**
-* Script Screenshot: <br> ![whoami](https://github.com/crypt1cx01/Automations_Bash/blob/main/Bash/whoami/whoami_script.PNG)
+* Source Code: **[whoami.sh](https://github.com/crypt1cx01/Automations_Bash/blob/main/whoami/whoami.sh)**
+* Script Screenshot: <br> ![whoami](https://github.com/crypt1cx01/Automations_Bash/blob/main/whoami/whoami_script.PNG)
 
 ---
 
