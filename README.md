@@ -1,4 +1,4 @@
-# ⚡ Automations_Bash
+<div align="center">
 
 ```text
  ┌──────────────────────────────────────────────────────────────┐
@@ -15,6 +15,10 @@
 
 A high-performance collection of modular Bash and Python toolkits engineered to automate daily server operations, orchestrate infrastructure routines, and gather sub-millisecond diagnostics safely.
 
+📌 **Project Suite URL:** [Automations_Bash on GitHub](https://github.com)
+
+</div>
+
 ---
 
 ## 🔍 Navigation Core
@@ -29,10 +33,14 @@ A high-performance collection of modular Bash and Python toolkits engineered to 
 
 ## 📂 Automation Suite Health Matrix
 
+> [!NOTE]
+> Each automation toolkit is self-contained within its own dedicated directory for modular deployment.
+
+
 
 | Toolkit Module | Current Status | Verification | Core Target Function |
 | :--- | :--- | :--- | :--- |
-| 📊 **[`📁 whoami/`](./whoami)** | 🟢 `Production-Ready` | `ShellCheck Certified` | Live CPU, Memory, Disk, and Network Diagnostics |
+| 📊 **[`whoami/`](./whoami)** | 🟢 `Production-Ready` | `ShellCheck Certified` | Live CPU, Memory, Disk, and Network Diagnostics |
 | 🧹 **`log_rotator/`** | 🟡 `Beta Testing` | `Pending CI` | Log archiving and safe memory cache flushing |
 | ☁️ **`secure_backup/`** | 🔴 `Planned (Q2)` | `Design Phase` | Encrypted automated database & site streaming |
 | 🔒 **`access_audit/`**| 🔴 `Planned (Q2)` | `Design Phase` | Failed SSH attempt parsing & system hardening |
@@ -55,6 +63,9 @@ Every module inside this suite runs on a strict **Pre-Flight Execution Matrix** 
          ▼ (Passes)
  📊 [Execute Module Core] ───> 💾 [Output JSON String / Status Logs]
 ```
+
+> [!TIP]
+> This modular structure allows you to clone the repository and pluck out only the specific sub-folders (like `whoami/`) you need for your server nodes without dragging unnecessary dependencies.
 
 ---
 
@@ -115,7 +126,7 @@ sync && echo 3 > /proc/sys/vm/drop_caches
 # Target: Compress critical source directories and securely stream to backup nodes
 BACKUP_SRC="/var/www/html"
 BACKUP_DES="/backup/\$(date +%F).tar.gz"
-tar -czf "\(BACKUP_DES" "\)BACKUP_SRC"
+tar -czf "\$BACKUP_DES" "\$BACKUP_SRC"
 scp "\$BACKUP_DES" sysadmin@backup_node:/remote/vault/
 ```
 </details>
@@ -141,7 +152,7 @@ To deploy the suite and initialize the diagnostic engine, run the following sequ
 
 ```bash
 # 1. Clone the master automation suite repository
-git clone https://github.com
+git clone https://github.com.git
 
 # 2. Move into the production module partition
 cd Automations_Bash/whoami
