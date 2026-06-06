@@ -43,7 +43,7 @@ A high-performance collection of modular Bash and Python toolkits engineered to 
 | :--- | :--- | :--- | :--- |
 | 📊 **[`whoami/`](./whoami)** | 🟢 `Production-Ready` | `ShellCheck Certified` | Live CPU, Memory, Disk, and Network Diagnostics |
 | 🧹 **`log_rotator/`** | 🟡 `Beta Testing` | `Pending CI` | Log archiving and safe memory cache flushing |
-| ☁️ **`secure_backup/`** | 🔴 `Planned (Q2)` | `Design Phase` | Encrypted automated database & site streaming |
+| ☁️ **`sec_backup/`** | 🔴 `Planned (Q2)` | `Design Phase` | Encrypted automated database & site streaming |
 | 🔒 **`access_audit/`**| 🔴 `Planned (Q2)` | `Design Phase` | Failed SSH attempt parsing & system hardening |
 
 ---
